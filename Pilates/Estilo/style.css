@@ -81,9 +81,12 @@ main h1, h2{
 }
 h3{
     font-size: 2em;
-    text-indent: 30px;
+    padding-left: 10px;
 }
-.Oqueé{
+h4{
+    padding: 10px;
+}
+.introducao{
     padding: 15px;
 }
 .imgesquerda{
@@ -92,11 +95,11 @@ h3{
     margin-right: 20px;
     float: left;
 }
-.Oqueé > p{
+.introducao > p{
     width: 100%;
 }
 
-.Beneficios{
+.beneficios{
     padding: 15px;
 }
 .imgdireita{
@@ -105,7 +108,7 @@ h3{
     margin-left: 20px;
     float: right;
 }
-.Beneficios p{
+.beneficios p{
     width: 100%;
 }
 ul{
@@ -144,7 +147,7 @@ aside{
 }
 aside > p{
     margin: 5px 0px;
-    text-indent: 30px;
+    padding-left: 10px;
     font-size: 1em;
     line-height: 1.5em;
 }
