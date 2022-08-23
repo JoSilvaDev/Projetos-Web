@@ -170,8 +170,10 @@ aside > h4{
     border-radius: 20px;
     background-image: linear-gradient(320deg, #c09df73b, transparent);
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.158);
-    padding: 20px; 
-    max-width: 300px;
+    padding: 10px 20px; 
+    height: 100px;
+    max-width: 500px;
+    
 }
 #texto{
     display: inline-block;
@@ -181,6 +183,8 @@ aside > h4{
 #caixas{
     float: right;
     width: 35%;
+    border-left: 1px solid black;
+    padding-left: 8px;
 }
 aside input{
     border-style: none;
