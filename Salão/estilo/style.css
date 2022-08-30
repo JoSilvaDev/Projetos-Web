@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1300px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+}
+header{
+    background-color: rgba(0, 0, 0, 0.396);
+    height: 100px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+header h1{
+    font-family: 'Philosopher', sans-serif;
+    font-variant: small-caps;
+    display: block;
+    font-size: 45px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-shadow: 2px 2px 60px rgba(255, 255, 255, 0.539);
+}
+header nav{
+    padding-top: 5%;
+    padding-left: 60%;
+}
+header a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 15px rgba(253, 253, 253, 0.534);
+}
+header a:hover{
+    transition-duration: 0.25s;
+    font-size: 17px;
+}
+
+#imagem-titulo{
+    height: 60vh;
+    background-image: url(../imagens/salão-1-1080.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+}
+
+#sub-titulo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    margin: 5%;
+    margin-top: 100px;
+    color: white;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.482);
+    width: 300px;
+    padding: 20px;
+}
+#sub-titulo > h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#sub-titulo > p{
+    max-width: 300;
+    
+}
+#sub-titulo:hover{
+    transition-duration: 0.4s;
+    font-size: 18px;
+    line-height: 1.3em;
+    background-color: rgba(0, 0, 0, 0.254);
+    border-radius: 10px;
+}
