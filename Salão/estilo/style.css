@@ -8,7 +8,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1300px;
+    max-width: 1400px;
     margin: auto;
     background-color: rgb(0, 0, 0);
 }
@@ -34,7 +34,8 @@ header nav{
     padding-left: 60%;
 }
 header a{
-    padding: 10px;
+    font-size: 12px;
+    padding: 20px;
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px 15px rgba(253, 253, 253, 0.534);
@@ -53,30 +54,21 @@ header a:hover{
 }
 
 #sub-titulo{
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.3em;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     margin: 5%;
     margin-top: 100px;
     color: white;
-    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.482);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
     width: 300px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.254);
-        border-radius: 10px;
 }
 #sub-titulo > h2{
     font-size: 2em;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 #sub-titulo > p{
     max-width: 300;
-    
-}
-#sub-titulo:hover{
-    transition-duration: 0.4s;
-    font-size: 16px;
-    line-height: 1.3em;
-    background-color: rgba(0, 0, 0, 0.254);
-    border-radius: 10px;
 }
