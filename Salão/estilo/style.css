@@ -59,7 +59,7 @@ header a:hover{
     line-height: 1.3em;
     font-weight: lighter;
     margin: 5%;
-    margin-top: 100px;
+    margin-top: 90px;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
     width: 300px;
@@ -69,35 +69,34 @@ header a:hover{
     font-size: 2em;
     margin-bottom: 10px;
 }
-#sub-titulo > p{
-    max-width: 300;
-}
 article{
     background-color: white;
+    text-align: center;
+}
+article > h2{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+article > p{
+    padding-bottom: 50px;
+    font-size: 14px;
 }
 .box{
     display: inline-block;
-    margin: auto;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-article > .produtos{
-    margin: auto;
-    font-size: 12px;
-    font-weight: lighter;
+    padding: 10px;
     text-align: center;
-    padding-top: 50px;
 }
-.produtos > h2{
-padding-bottom: 20px;
-}
-.produtos > p{
-    padding-bottom: 50px;
-}
-.produtos  img{
+.box > img{
     max-width: 300px;
+    padding-bottom: 20px;
 }
-.box  p{
-    max-width: 300px;
+.box > p{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+#box2 p{
+    padding-top: 30px;
 }
