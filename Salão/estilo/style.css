@@ -78,6 +78,8 @@ article > h2{
     padding-bottom: 20px;
 }
 article > p{
+    margin: auto;
+    max-width: 80vw;
     padding-bottom: 50px;
     font-size: 14px;
 }
