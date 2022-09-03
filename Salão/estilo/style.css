@@ -34,8 +34,9 @@ header nav{
     padding-left: 60%;
 }
 header a{
+    transition-duration: 0.25s;
     font-size: 12px;
-    padding: 20px;
+    margin: 20px;
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px 15px rgba(253, 253, 253, 0.534);
@@ -46,7 +47,7 @@ header a:hover{
 }
 
 #imagem-titulo{
-    height: 60vh;
+    height: 70vh;
     background-image: url(../imagens/salão-1-1080.jpg);
     background-size: cover;
     background-repeat: none;
