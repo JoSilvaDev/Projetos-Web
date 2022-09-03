@@ -7,7 +7,7 @@
     margin: 0px;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     max-width: 1400px;
     margin: auto;
     background-color: rgb(0, 0, 0);
@@ -57,7 +57,6 @@ header a:hover{
 #sub-titulo{
     font-size: 16px;
     line-height: 1.3em;
-    font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     margin: 5%;
     margin-top: 100px;
@@ -72,4 +71,19 @@ header a:hover{
 }
 #sub-titulo > p{
     max-width: 300;
+}
+article{
+    background-color: white;
+    height: 100vh;
+}
+article > .produtos{
+    width: 85vw;
+    margin: auto;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 50px;
+}
+.produtos > h2{
+padding-bottom: 20px;
 }
