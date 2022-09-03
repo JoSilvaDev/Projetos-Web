@@ -62,6 +62,8 @@ header a:hover{
     text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.482);
     width: 300px;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.254);
+        border-radius: 10px;
 }
 #sub-titulo > h2{
     font-size: 2em;
