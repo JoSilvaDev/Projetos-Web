@@ -47,7 +47,7 @@ header a:hover{
 }
 
 #imagem-titulo{
-    height: 60vh;
+    height: 400px;
     background-image: url(../imagens/salão-1-1080.jpg);
     background-size: cover;
     background-repeat: none;
@@ -83,7 +83,7 @@ article > p{
 }
 .box{
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
 }
 .box > img{
     max-width: 300px;
@@ -93,5 +93,9 @@ article > p{
     width: 300px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+#box2 p{
+    padding-top: 30px;
 }
