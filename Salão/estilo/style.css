@@ -53,6 +53,7 @@ header a:hover{
 }
 
 #sub-titulo{
+    font-size: 14px;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     margin: 5%;
@@ -64,7 +65,7 @@ header a:hover{
 }
 #sub-titulo > h2{
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 #sub-titulo > p{
     max-width: 300;
@@ -72,7 +73,7 @@ header a:hover{
 }
 #sub-titulo:hover{
     transition-duration: 0.4s;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.3em;
     background-color: rgba(0, 0, 0, 0.254);
     border-radius: 10px;
