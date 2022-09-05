@@ -47,7 +47,7 @@ header a:hover{
 }
 
 #imagem-titulo{
-    height: 400px;
+    height: 70vh;
     background-image: url(../imagens/salão-1-1080.jpg);
     background-size: cover;
     background-repeat: none;
@@ -59,7 +59,7 @@ header a:hover{
     line-height: 1.3em;
     font-weight: lighter;
     margin: 5%;
-    margin-top: 90px;
+    margin-top: 160px;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
     width: 300px;
@@ -74,30 +74,29 @@ article{
     text-align: center;
 }
 article > h2{
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 20px;
 }
 article > p{
     margin: auto;
     max-width: 80vw;
-    padding-bottom: 50px;
-    font-size: 14px;
+    padding-bottom: 70px;
+    font-size: 16px;
 }
 .box{
     display: inline-block;
-    padding: 10px;
+    width: 350px;
+    font-size: 16px;
+
 }
 .box > img{
-    max-width: 300px;
+    vertical-align: center;
+    max-width: 340px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
-.box > p{
-    width: 300px;
-    padding-top: 10px;
+.box p{
+    padding-top: 5px;
     padding-bottom: 10px;
-    font-size: 16px;
-}
-
-#box2 p{
-    padding-top: 30px;
+    line-height: 2.3em;
 }
