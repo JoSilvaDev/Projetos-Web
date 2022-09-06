@@ -105,12 +105,11 @@ article > p{
 }
 
 .container{
-    position: relative;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
-    height: 70vh;
+    background-position: right center;
+    height: 450px;
     box-shadow:inset 6px 6px 12px rgba(0, 0, 0, 0.59) ;
     margin-top: 40px;
 }
@@ -126,7 +125,7 @@ article > p{
     color: white;
 }
 .containertext h2{
-padding-top: 140px;
+padding-top: 12%;
 padding-bottom: 20px;
 margin: auto;
 max-width: 600px;
@@ -138,6 +137,8 @@ font-size: 50px;
 .buttom{
     margin-top: 20px;
     padding: 10px;
+    background-color: white;
+    border: none;
 }
 
 .serviços{
@@ -163,6 +164,9 @@ font-size: 50px;
 }
 
 #container2{
-    margin-top: -6px;
     background-image: url(../imagens/salão-ambiente-2.jpg);
+    background-position: left center;
+    width: 100%;
+    margin-top: 0px;
+position: absolute;
 }
