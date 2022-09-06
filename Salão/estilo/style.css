@@ -27,7 +27,7 @@ header h1{
     float: left;
     padding-top: 20px;
     padding-left: 20px;
-    text-shadow: 2px 2px 60px rgba(255, 255, 255, 0.539);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.539);
 }
 header nav{
     padding-top: 5%;
@@ -47,7 +47,7 @@ header a:hover{
 }
 
 #imagem-titulo{
-    height: 550px;
+    height: 450px;
     background-image: url(../imagens/salão-2.jpg);
     background-size: cover;
     background-repeat: none;
@@ -59,7 +59,7 @@ header a:hover{
     line-height: 1.3em;
     font-weight: lighter;
     margin: 5%;
-    margin-top: 160px;
+    margin-top: 80px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.65);
     width: 300px;
@@ -80,7 +80,7 @@ article > h2{
 article > p{
     margin: auto;
     max-width: 80vw;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     font-size: 16px;
 }
 .box{
@@ -99,4 +99,39 @@ article > p{
     padding-top: 5px;
     padding-bottom: 10px;
     line-height: 2.3em;
+}
+
+.container{
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 70vh;
+    box-shadow:inset 6px 6px 12px rgba(0, 0, 0, 0.59) ;
+    margin-top: 40px;
+}
+#container1{
+    background-image: url(../imagens/salão-ambiente.jpg);
+}
+.containertext{
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.422);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+}
+.containertext h2{
+padding-top: 140px;
+padding-bottom: 20px;
+margin: auto;
+max-width: 600px;
+font-size: 50px;
+}
+.containertext p{
+    font-size: 0.8em;
+}
+.buttom{
+    margin-top: 20px;
+    padding: 10px;
 }
