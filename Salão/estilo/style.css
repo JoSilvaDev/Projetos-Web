@@ -125,7 +125,7 @@ article > p{
     color: white;
 }
 .containertext h2{
-padding-top: 12%;
+padding-top: 70px;
 padding-bottom: 20px;
 margin: auto;
 max-width: 600px;
@@ -164,9 +164,10 @@ font-size: 50px;
 }
 
 #container2{
-    background-image: url(../imagens/salão-ambiente-2.jpg);
-    background-position: left center;
-    width: 100%;
-    margin-top: 0px;
+max-width: 1400px;
+background-image: url(../imagens/salão-ambiente-2.jpg);
+background-position: left center;
+width: 100%;
+margin-top: 0px;
 position: absolute;
 }
