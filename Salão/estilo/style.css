@@ -11,7 +11,7 @@ body{
     font-family: 'Raleway', sans-serif;
     max-width: 1400px;
     margin: auto;
-    background-color: rgb(0, 0, 0);
+
 }
 
 header{
@@ -51,11 +51,15 @@ header a:hover{
 #imagem-titulo{
     height: 450px;
     background-image: url(../imagens/salão-2.jpg);
+    box-shadow: inset 2px 2px 12px black;
     background-size: cover;
     background-repeat: none;
     background-position: center center;
 }
 #sub-titulo{
+    background-color: rgba(0, 0, 0, 0.315);
+    box-shadow:2px 2px 12px rgba(0, 0, 0, 0.507);
+    border-radius: 4px;
     font-size: 16px;
     line-height: 1.3em;
     font-weight: lighter;
