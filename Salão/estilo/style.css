@@ -31,20 +31,25 @@ header h1{
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.539);
 }
 header nav{
+    margin-right: 20px;
     padding-top: 5%;
-    padding-left: 60%;
+    text-align: right;
 }
 header a{
     transition-duration: 0.25s;
     font-size: 12px;
-    padding: 20px;
+    margin: 20px;
+    padding: 5px;
     text-decoration: none;
     color: white;
     text-shadow: 2px 2px 15px rgba(253, 253, 253, 0.534);
 }
 header a:hover{
     transition-duration: 0.25s;
-    font-size: 17px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.631);
 }
 
 #imagem-titulo{
