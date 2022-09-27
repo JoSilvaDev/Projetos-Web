@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section#perfil img{
+    max-width: 200px;
+    border-radius: 50%;
+}
