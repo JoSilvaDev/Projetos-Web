@@ -1,14 +1,17 @@
 @media screen and (max-width: 768px) {
     span#icon{
-        display: block;
+        display: none;
         cursor: pointer;
         padding: 10px;
         padding-top: 35px;
     }
+
+    header {
+        text-align: center;
+    }
     
     nav#menu{
-        background-color: rgba(0, 0, 0, 0.396);
-        margin-top: 31px;
+        padding-top: 20px;
         text-align: center;
         width: 100vw;
         padding-bottom: 10px;

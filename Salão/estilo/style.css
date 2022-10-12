@@ -14,20 +14,18 @@ body{
 }
 
 header{
+    text-align: left;
     background-color: rgba(0, 0, 0, 0.396);
-    height: 100px;
+    height: 120px;
     color: white;
-    text-align: center;
-    margin: auto;
 }
 header h1{
     font-family: 'Philosopher', sans-serif;
     font-variant: small-caps;
-    display: block;
+    display: inline-block;
     font-size: 45px;
-    float: left;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 35px;
+    padding-left: 40px;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.539);
 }
 span#icon{
@@ -36,7 +34,7 @@ span#icon{
 header nav{
     display: block;
     margin-right: 20px;
-    padding-top: 5%;
+    padding-top: 0.5%;
     text-align: right;
 }
 header a{
