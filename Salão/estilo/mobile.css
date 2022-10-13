@@ -1,23 +1,37 @@
 @media screen and (max-width: 768px) {
     span#icon{
-        display: none;
+        float: left;
+        display: block;
         cursor: pointer;
-        padding: 10px;
-        padding-top: 35px;
+        padding: 20px;
+        margin-top: -75px;
+        transition-duration: 0.25s;
+    }
+
+    span#icon:hover{
+        font-size: 1.8em;
+        transition-duration: 0.25s;
     }
 
     header {
         text-align: center;
+        height: 100px;
     }
 
     header h1{
+        display: block;
         padding-top: 20px;
     }
     
     nav#menu{
-        padding-top: 15px;
-        text-align: center;
-        width: 100vw;
-        padding-bottom: 10px;
+        display: none;
+        float:left ;
+        margin-top: -40px;
+    }
+
+    nav#menu a{
+        margin: 12px;
+        padding: 5px;
+        display: block;
     }
 }
