@@ -3,8 +3,8 @@
         float: left;
         display: block;
         cursor: pointer;
-        padding: 20px;
-        margin-top: -75px;
+        margin: 20px;
+        margin-top: -55px;
         transition-duration: 0.25s;
     }
 
