@@ -75,10 +75,11 @@ section#exp{
 }
 
 section#exp div{
-    padding: 28px;
+    padding: 25px;
 }
 
 section#exp div h2{
+    width: 300px;
     border-bottom: 1px solid black;
 }
 
@@ -88,6 +89,7 @@ section#exp div h3{
 
 section#exp p{
     padding-top: 5px;
+    padding-bottom: 10px;
     text-indent: 2em;
     text-align: justify;
     line-height: 1.5em;
@@ -96,5 +98,5 @@ section#exp p{
 section#exp ul{
     margin: auto;
     width: 70vw;
-    padding-top: 10px;
+    padding-top: 15px;
 }
