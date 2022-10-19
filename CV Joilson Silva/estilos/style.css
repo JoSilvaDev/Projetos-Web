@@ -11,10 +11,6 @@ body, html{
     height: 100vh;
 }
 
-body{
-    background-color: rgba(255, 228, 196, 0.113);
-}
-
 main{
     width: 100vw;
     height: 100vh;
