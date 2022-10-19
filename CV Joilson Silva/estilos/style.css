@@ -47,7 +47,7 @@ section#perfil > p{
 section#apresentacao{
     margin: auto;
     width: 70vw;
-    height: 670px;
+    height: 650px;
     border-left: 1px solid black;
     padding-left: 10px;
 }
@@ -62,7 +62,6 @@ section#apresentacao p{
 
 section#apresentacao div{
     padding: 30px 0px 30px 10px;
-    border-bottom: 1px solid black;
 }
 
 section#apresentacao div span{
@@ -76,9 +75,26 @@ section#exp{
 }
 
 section#exp div{
-    padding: 30px;
+    padding: 28px;
 }
 
-section#exp div h2, h3{
-    padding: 0px 0px 10px 0px;
+section#exp div h2{
+    border-bottom: 1px solid black;
+}
+
+section#exp div h3{
+    padding-top: 15px;
+}
+
+section#exp p{
+    padding-top: 5px;
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+section#exp ul{
+    margin: auto;
+    width: 70vw;
+    padding-top: 10px;
 }
