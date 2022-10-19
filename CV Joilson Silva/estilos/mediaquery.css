@@ -17,8 +17,12 @@
     section#cv{
         margin-top: 100px;
         height: 1050px;
-        background-color: white;
+        background-color: whitesmoke;
         box-shadow: -40px 40px 15px rgba(0, 0, 0, 0.434);
+    }
+
+    section#cv h1, h2, h3, p{
+        font-weight: 400;
     }
 
     section#perfil {
@@ -40,10 +44,10 @@
 
     div#perfiltxt h1{
         font-size:2em ;
-        font-weight: 400;
     }
 
     section#apresentacao{
+        margin-top: 13px;
         border: none;
         float: left;
         width: 30%;
@@ -69,6 +73,7 @@
     }
 
     section#exp{
+        margin-top:10px;
         float: right;
         max-width: 55%;
         margin-right: 10px;
