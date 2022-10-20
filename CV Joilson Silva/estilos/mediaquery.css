@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1130px) {
     body{
         background: url(../imagens/lapis2.jpg);
         background-color: aquamarine;
         background-size: cover;
         background-repeat: none;
         background-position: center center;
+        height: 1080px;
     }
 
     section#cv{
         margin: auto;
         max-width: 90vw;
-        height: 1000px;
+        height: 950px;
         background-color: whitesmoke;
         margin-top: 100px;
         box-shadow: -20px 20px 15px rgba(0, 0, 0, 0.434);
@@ -22,8 +23,18 @@
         font-weight: 400;
     }
 
+    section#perfil{
+        width: 600px;
+        text-align: left;
+    }
+
+    section#perfil img{
+        margin-left: 70px;
+        margin-right: 20px;
+    }
+
     section#apresentacao{
-        height: 500px;
+        height: 450px;
         width: 32%;
         float: left;
         margin-top: 13px;
@@ -36,9 +47,7 @@
     section#exp {
         margin-top: -10px;
         float: right;
-        max-width: 55%;
-        margin-right: 3%;
-        padding-left: 30px;
+        max-width: 55vw;
     }
 
     section#exp div h2{
@@ -46,7 +55,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1130px) {
     body{
         margin: auto;
         background: url(../imagens/lapis2.jpg);
