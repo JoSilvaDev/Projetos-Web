@@ -43,7 +43,7 @@ section#perfil  p{
 
 section#apresentacao{
     margin: auto;
-    width: 70vw;
+    width: 80vw;
     height: 650px;
     border-left: 1px solid black;
     padding-left: 10px;
@@ -67,7 +67,7 @@ section#apresentacao div span{
 }
 
 section#exp{
-    width: 75vw;
+    width: 90vw;
     margin: auto;
     padding-top: 30px;
 }
@@ -94,9 +94,8 @@ section#exp p{
 }
 
 section#exp ul{
-    margin: auto;
-    width: 70vw;
     padding-top: 15px;
+    padding-left: 30px;
 }
 
 section#exp ul li{
