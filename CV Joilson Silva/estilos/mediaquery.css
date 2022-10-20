@@ -1,16 +1,64 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body{
-        height: 1100px;
+        background: url(../imagens/lapis2.jpg);
+        background-color: aquamarine;
+        background-size: cover;
+        background-repeat: none;
+        background-position: center center;
+    }
+
+    section#cv{
+        margin: auto;
+        max-width: 90vw;
+        height: 1000px;
+        background-color: whitesmoke;
+        margin-top: 100px;
+        box-shadow: -20px 20px 15px rgba(0, 0, 0, 0.434);
+    }
+
+    section#cv h1, h2 ,h3 ,p {
+        font-weight: 400;
+    }
+
+    section#apresentacao{
+        height: 500px;
+        width: 32%;
+        float: left;
+        margin-top: 13px;
+        padding-bottom: 300px;
+        padding-left: 40px;
+        border: none;
+        border-right: 1px solid black;
+    }
+
+    section#exp {
+        margin-top: -10px;
+        float: right;
+        max-width: 55%;
+        margin-right: 3%;
+        padding-left: 30px;
+    }
+
+    section#exp div h2{
+        border: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        margin: auto;
         background: url(../imagens/lapis2.jpg);
         background-size: cover;
         background-repeat: none;
+        background-position: center center;
     }
 
     main{
         margin: auto;
         max-width: 75vw;
+        height: 1100px;
     }
 
     section#cv{
@@ -67,10 +115,6 @@
 
     section#apresentacao p{
         padding-bottom: 15px;
-    }
-
-    section#apresentacao h2 > span{
-        display: none;
     }
 
     section#exp{
