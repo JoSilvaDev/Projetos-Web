@@ -95,17 +95,17 @@
 
     section#apresentacao{
         height: 400px;
-        margin-top: 13px;
+        width: 30%;
+        padding-top: 13px;
         border: none;
         border-right: 1px solid black;
         float: left;
-        width: 32%;
-        padding-left: 3%;
+        padding-left: 30px;
         padding-bottom: 300px;
     }
 
     section#apresentacao div{
-        width: 240px;
+        width: 80%;
         border-bottom: 1px solid black;
     }
 
@@ -119,10 +119,8 @@
 
     section#exp{
         margin-top:10px;
-        float: right;
-        max-width: 55%;
-        margin-right: 3%;
-        padding-left: 30px;
+        width: 45vw;
+        margin-right: 30px;
     }
 
     section#exp div{
