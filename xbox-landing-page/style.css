@@ -24,6 +24,23 @@ header #acc{
     float: right;
 }
 
+header nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header nav a{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
 article{
     max-width: 90vw;
     margin: 20px;
