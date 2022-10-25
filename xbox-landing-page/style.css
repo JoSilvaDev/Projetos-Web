@@ -30,13 +30,11 @@ padding-right: 10px;
 
 header nav{
     display: none;
-    padding-bottom: 20px;
     padding-top: 20px;
 }
 
 header nav a{
     display: block;
-    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 5px;
@@ -54,7 +52,6 @@ header div{
     color: white;
     text-shadow: 1px 1px 3px black;
     background-color: rgba(19, 124, 19, 0.877);
-    background-size: contain;
     border-radius: 20px;
     box-shadow: -2px -2px 10px  black
 }
@@ -78,7 +75,6 @@ article{
 }
 
 article img{
-    margin: auto;
     max-width: 85vw;
 }
 
@@ -127,5 +123,5 @@ article div.console{
 
 [data-anime].animate{
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0, 0, 0);
 }
