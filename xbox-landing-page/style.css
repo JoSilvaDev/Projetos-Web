@@ -71,12 +71,15 @@ header div input{
 }
 
 article{
+    margin: auto;
     max-width: 90vw;
     margin: 20px;
+    padding-bottom: 80px;
 }
 
 article img{
-    max-width: 90vw;
+    margin: auto;
+    max-width: 85vw;
 }
 
 article div{
@@ -93,13 +96,16 @@ article p{
     text-align: justify;
 }
 
+article div#eleve{
+    padding-bottom: 40px;
+}
+
 article div#eleve h2{
 text-align: center;
 }
 
 article div.console{
-    height: 100vh;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 [data-anime]{
@@ -113,6 +119,10 @@ article div.console{
 
 [data-anime="right"]{
     transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"]{
+    transform: translate3d(0, -20px, 0);
 }
 
 [data-anime].animate{

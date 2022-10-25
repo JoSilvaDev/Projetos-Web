@@ -30,15 +30,15 @@
                 <p>Uma imersão sem igual, proporcionada pelo ecossistema xbox que foi criando pensando em você.</p>
                 <img src="imagens/xbox-jogos.png" alt="xbox-jogos">
             </div>
-            <div>
+            <div data-anime="top">
                 <h3>No seu Smartphone</h3>
                 <p>Você pode pode reproduzir seu jogo diretamente no seu smartphone. Continue jogando, mesmo sem um monitor.</p>
             </div>
-            <div>
+            <div data-anime="top">
                 <h3>Interação com seu PC</h3>
                 <p>Todo progresso de jogo feito em seu computador, também estará disponível automaticamente em seu novo console.</p>
             </div>
-            <div>
+            <div data-anime="top">
                 <h3>Uma nova experiência</h3>
                 <p>Com novas tecnologias embarcadas, a nova geração te aguarda. Menos loadings, mais fluidez e os melhores gráficos que
                 você vai experimentar.</p>
@@ -66,6 +66,21 @@
             }
         }
 
+        const debounce = function (func, wait, immediate) {
+            let timeout;
+                return function (...args) {
+                    const context = this;
+                    const later = function () {
+                        timeout = null;
+                        if (!immediate) func.apply(context, args);
+                    };
+                    const callNow = immediate && !timeout;
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+                    if (callNow) func.apply(context, args);
+            };
+        };
+
         const target = document.querySelectorAll('[data-anime]');
         const animationClass = 'animate';
 
@@ -83,9 +98,9 @@
         animeScroll();
 
         if(target.length) {
-            window.addEventListener('scroll', function(){
+            window.addEventListener('scroll', debounce(function(){
             animeScroll();
-        })
+        }, 200))
         }
         
     </script>
