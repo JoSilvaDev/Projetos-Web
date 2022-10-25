@@ -12,7 +12,15 @@ body, html{
 }
 
 header{
+    background: url(imagens/xbox_catalogo.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+header > div{
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.658);
+    height: 300px;
 }
 
 header img{
@@ -24,14 +32,14 @@ header #acc{
 }
 
 header img#botao-menu{
-display: block;
-margin: auto;
-padding: 0px 150px 0px 150px;
+float: right;
+padding-right: 10px;
 }
 
 header nav{
     display: none;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 header nav a{
@@ -47,9 +55,9 @@ header nav a{
     border-radius: 10px;
 }
 
-header div{
+header div#sub-cabeca{
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 3px black;
@@ -80,7 +88,8 @@ article img{
 }
 
 article div{
-    padding: 20px 5px 20px 5px;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
 }
 
 article div p{
@@ -90,4 +99,8 @@ article div p{
 article p{
     line-height: 1.5em;
     text-align: justify;
+}
+
+article div#eleve h2{
+text-align: center;
 }
