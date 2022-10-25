@@ -43,16 +43,16 @@
                 <p>Com novas tecnologias embarcadas, a nova geração te aguarda. Menos loadings, mais fluidez e os melhores gráficos que
                 você vai experimentar.</p>
             </div>
-            <div>
-                <img src="imagens/xbox_series_s.webp" alt="xboxs">
-                <h2>Minimalismo e charme do menor Xbox já feito</h2>
-                <p>Mas não se engane, esse pequeno console é capaz de rodar os seus jogos preferidos com até 120 frames, garantindo uma
+            <div class="console">
+                <img src="imagens/xbox_series_s.webp" alt="xboxs" data-anime="left">
+                <h2 data-anime="left">Minimalismo e charme do menor Xbox já feito</h2>
+                <p data-anime="left">Mas não se engane, esse pequeno console é capaz de rodar os seus jogos preferidos com até 120 frames, garantindo uma
                 fluidez excelente. Possuí também um SSD de alta velocidade pra você aproveitar mais o seu game.</p>
             </div>
-            <div>
-                <img src="imagens/xbox_series_x.png" alt="xboxx">
-                <h2>Simplesmente o console mais poderoso da atualidade</h2>
-                <p>Com o Xbox Series X você poderá disfrutar do melhor que há, 4K, 120 frames, Ray Tracing. Aliado a enorme biblioteca de
+            <div class="console">
+                <img src="imagens/xbox_series_x.png" alt="xboxx" data-anime="right">
+                <h2 data-anime="right">Simplesmente o console mais poderoso da atualidade</h2>
+                <p data-anime="right">Com o Xbox Series X você poderá disfrutar do melhor que há, 4K, 120 frames, Ray Tracing. Aliado a enorme biblioteca de
                 jogos otimizados para o console, é a melhor experiência disponível no mercado.</p>
             </div>
         </article>
@@ -65,6 +65,24 @@
                 menu.style.display = 'block'
             }
         }
+
+        const target = document.querySelectorAll('[data-anime]');
+        const animationClass = 'animate';
+
+        function animeScroll(){
+            const windowTop = window.pageYOffset + 500;
+            target.forEach(function(element){
+                if((windowTop) > element.offsetTop){
+                    element.classList.add(animationClass)
+                }
+
+                console.log(element.offsetTop);
+            })
+        }
+
+        window.addEventListener('scroll', function(){
+            animeScroll();
+        })
     </script>
 </body>
 </html>
