@@ -11,7 +11,8 @@
     <header>
         <img src="imagens/Xbox-logo.png" alt="xbox_logo">
         <img src="imagens/account/2x/outline_account_circle_black_24dp.png" alt="account_logo" id="acc">
-        <nav>
+        <img src="imagens/black-18dp/2x/outline_menu_black_18dp.png" alt="menu" id="botao-menu" onclick="clickMenu()">
+        <nav id="menu">
             <a href="#">HOME</a>
             <a href="#">LOJA</a>
             <a href="#">MAIS</a>
@@ -52,5 +53,14 @@
             </div>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if(menu.style.display == 'block'){
+                menu.style.display = 'none'
+            } else{
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
