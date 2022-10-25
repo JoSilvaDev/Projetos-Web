@@ -60,18 +60,11 @@ header div h1, p{
     padding-bottom: 20px;
 }
 
-header div input{
-    margin-top: 10px;
-    width: 60px;
-    height: 25px;
-    border-radius: 10px;
-}
-
 article{
     margin: auto;
     max-width: 90vw;
     margin: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 article img{
