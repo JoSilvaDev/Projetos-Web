@@ -12,7 +12,6 @@ body, html{
 }
 
 header{
-    max-width: 90vw;
     padding: 20px;
 }
 
@@ -31,7 +30,7 @@ padding: 0px 150px 0px 150px;
 }
 
 header nav{
-    display: block;
+    display: none;
     padding-bottom: 20px;
 }
 
@@ -46,6 +45,25 @@ header nav a{
     color: black;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+header div{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: green;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+header div h1{
+    padding-bottom: 20px;
+}
+
+header div input{
+    margin-top: 10px;
+    width: 60px;
+    height: 25px;
 }
 
 article{
