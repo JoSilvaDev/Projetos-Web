@@ -99,21 +99,22 @@ text-align: center;
 }
 
 article div.console{
-    padding-top: 20px;
+    padding-top: 80px;
 }
 
 article div.box{
     margin-right: 140px;
     margin-bottom: 20px;
-    background-color: green;
+    background-color: rgba(19, 124, 19, 0.877);
     width: 160px;
     height: 250px;
     border-radius: 20px;
-    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.444);
+    box-shadow: inset  5px 5px 10px rgba(0, 0, 0, 0.444);
 }
 
 article div#box-right{
     margin-left: 140px;
+    box-shadow: inset -5px  5px 10px rgb(0, 0, 0, 0.444);
 }
 
 article img#xboxx{
