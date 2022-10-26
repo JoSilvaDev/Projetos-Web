@@ -88,10 +88,7 @@ article p{
 
 article div#eleve{
     padding-bottom: 40px;
-}
-
-article div#eleve h2{
-text-align: center;
+    text-align: center;
 }
 
 [data-anime="top"] img{
