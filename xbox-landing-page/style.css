@@ -93,6 +93,10 @@ article div#eleve h2{
 text-align: center;
 }
 
+[data-anime="top"] img{
+    width: 100px;
+}
+
 article div.console{
     padding-top: 20px;
 }
@@ -111,6 +115,7 @@ article div.console{
 }
 
 [data-anime="top"]{
+    text-align: center;
     transform: translate3d(0, -20px, 0);
 }
 
