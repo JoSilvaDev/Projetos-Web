@@ -69,7 +69,7 @@ article{
 
 article img{
 
-    max-width: 280px;
+    max-width: 80vw;
 }
 
 article div{
@@ -83,7 +83,6 @@ article div p{
 
 article p{
     line-height: 1.5em;
-    text-align: justify;
 }
 
 article div#eleve{
@@ -92,7 +91,7 @@ article div#eleve{
 }
 
 [data-anime="top"] img{
-    width: 100px;
+    width: 80px;
 }
 
 article div.console{
