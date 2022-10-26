@@ -100,8 +100,8 @@ article div.console{
 
 article div.box{
     margin-right: 140px;
-    margin-bottom: 20px;
     background-color: rgba(19, 124, 19, 0.877);
+    margin-bottom: 40px;
     width: 160px;
     height: 250px;
     border-radius: 20px;
@@ -109,12 +109,13 @@ article div.box{
 }
 
 article div#box-right{
+    margin-bottom: 30px;
     margin-left: 140px;
     box-shadow: inset -5px  5px 10px rgb(0, 0, 0, 0.444);
 }
 
 article img#xboxx{
-    margin-left: -130px;
+    margin-left: -160px;
 }
 
 [data-anime]{
