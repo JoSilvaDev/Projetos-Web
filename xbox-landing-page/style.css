@@ -9,7 +9,6 @@
 body, html{
     width: 100vw;
     height: 100vh;
-    margin-right: -10px;
 }
 
 header{
@@ -25,8 +24,8 @@ header #acc{
 }
 
 header img#botao-menu{
-    float: right;
-    padding-right: 10px;
+float: right;
+padding-right: 10px;
 }
 
 header nav{
@@ -35,10 +34,10 @@ header nav{
 }
 
 header nav a{
+    display: block;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 5px;
-    display: block;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -62,8 +61,9 @@ header div h1, p{
 }
 
 article{
-    width: 90vw;
     margin: auto;
+    max-width: 90vw;
+    margin: 20px;
     padding-bottom: 60px;
 }
 
@@ -94,12 +94,7 @@ article div#eleve{
 }
 
 article div.console{
-    width: 85vw;
     padding-top: 80px;
-}
-
-article div.console h2, p{
-    display: inline-block;
 }
 
 article div.console p{
@@ -107,23 +102,23 @@ article div.console p{
 }
 
 article div.box{
-    float: left;
+    margin-right: 140px;
     background-color: rgba(19, 124, 19, 0.877);
     margin-bottom: 40px;
     width: 160px;
-    height: 280px;
+    height: 300px;
     border-radius: 20px;
     box-shadow: inset  5px 5px 10px rgba(0, 0, 0, 0.444);
 }
 
 article div#box-right{
-    float: left;
+    margin-bottom: 30px;
     margin-left: 140px;
     box-shadow: inset -5px  5px 10px rgb(0, 0, 0, 0.444);
 }
 
 article img#xboxx{
-    float: right;
+    margin-left: -160px;
 }
 
 [data-anime]{
