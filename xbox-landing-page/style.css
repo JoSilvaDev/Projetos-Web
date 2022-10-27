@@ -7,11 +7,14 @@
 }
 
 body, html{
+    margin: auto;
     width: 100vw;
     height: 100vh;
 }
 
 header{
+    margin: auto;
+    max-width: 400px;
     padding: 20px;
 }
 
