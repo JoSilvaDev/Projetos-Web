@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xbox landing page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
             <img src="imagens/Xbox-logo.png" alt="xbox_logo">
-            <img src="imagens/account/2x/outline_account_circle_black_24dp.png" alt="account_logo" id="acc">
-            <img src="imagens/black-18dp/2x/outline_menu_black_18dp.png" alt="menu" id="botao-menu" onclick="clickMenu()">
+            <span class="material-icons-outlined" id="acc">
+                account_circle
+            </span>
+            <span class="material-icons-outlined" id="botao-menu" onclick="clickMenu()">
+                menu
+            </span>
             <nav id="menu">
-                <a href="#">HOME</a>
                 <a href="#">LOJA</a>
                 <a href="#">MAIS</a>
                 <a href="#">SUPORTE</a>
+                <a href="#">HOME</a>
                 </nav>
-            <div>
+            <div data-anime="top">
                 <h1>Descubra um novo mundo, com seu próximo Xbox</h1>
                 <p>Milhares de jogos estão te esperando!</p>
             </div> <!--Criar um background pro header em formato de video, quando apertar play, ele começa a reproduzir -->
@@ -47,12 +52,14 @@
                 você vai experimentar.</p>
             </div>
             <div class="console">
+                <h1>XBOX SERIES S</h1>
                 <div class="box"><img src="imagens/xbox_series_s.webp" alt="xboxs" data-anime="left"></div>
                 <h2 data-anime="left">Charme e minimalismo do menor Xbox já feito</h2>
                 <p data-anime="left">Mas não se engane, esse pequeno console é capaz de rodar os seus jogos preferidos com até 120 frames, garantindo ótima
                 fluidez. Possuí também um SSD de alta velocidade pra você aproveitar mais o seu game.</p>
             </div>
-            <div class="console">
+            <div class="console" id="xbox2">
+                <h1>XBOX SERIES X</h1>
                 <div class="box" id="box-right"><img src="imagens/xbox_series_x.png" alt="xboxx" data-anime="right" id="xboxx"></div>
                 <h2 data-anime="right">Simplesmente o console mais poderoso da atualidade</h2>
                 <p data-anime="right">Com o Xbox Series X você poderá disfrutar do melhor que há: 4K, 120 frames, Ray Tracing. Aliado a enorme biblioteca de
@@ -60,11 +67,17 @@
             </div>
         </article>
         <aside>
-            <div id="gamepass">
-            <img src="imagens/xbox-game-pass.jpg" alt="">
+            <div id="gamepass" data-anime="bottom">
+                <h1>XBOX GAME PASS</h1>
+                <img src="imagens/xbox-game-pass.jpg" alt="">
+                <p>Tudo isso associado ao maior e melhor serviço de assinatura do mercado, com uma vasta biblioteca pra você escolher, e por um preço justo. <strong>ADQUIRA JÁ.</strong></p>
         </div>
     </aside>
     </main>
+    <footer>
+        <img src="imagens/xbox-logo-w.png" alt="">
+        <p>todos os direitos reservados.</p>
+    </footer>
     <script>
         function clickMenu(){
             if(menu.style.display == 'block'){

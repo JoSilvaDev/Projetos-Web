@@ -17,15 +17,16 @@ header{
     padding: 20px;
 }
 
-header img{
-    height: 25px;
+header img, span{
+    height: 27px;
 }
 
-header #acc{
+header span#acc{
     float: right;
 }
 
-header img#botao-menu{
+header span#botao-menu{
+cursor: pointer;
 float: right;
 padding-right: 10px;
 }
@@ -102,6 +103,15 @@ article div.console p{
     text-align: justify;
 }
 
+article div.console h1{
+    padding-bottom: 20px;
+    font-size: 1.8em;
+}
+
+article div#xbox2 h1{
+    text-align: right;
+}
+
 article div.box{
     margin-right: 140px;
     background-color: rgba(19, 124, 19, 0.877);
@@ -141,15 +151,48 @@ article img#xboxx{
     transform: translate3d(0, -20px, 0);
 }
 
+[data-anime="bottom"] {
+    transform: translate3d(0, -30px, 0);
+}
+
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0, 0, 0);
 }
 
-article div#gamepass{
+aside div#gamepass{
     text-align: center;
+}
+
+aside div#gamepass h1{
+    padding-bottom: 20px;
+    font-size: 2em;
+    margin: auto;
+}
+
+aside div#gamepass p{
+    line-height: 1.5em;
+    margin: auto;
+    width: 320px;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 aside div#gamepass img{
     width: 100%;
+    width: 340px;
+    border-radius: 20px;
+}
+
+footer{
+    padding: 10px 0px 0px 20px;
+    height: 40px;
+    background-color: rgba(19, 124, 19, 0.877);
+    text-align: center;
+}
+
+footer img{
+    width: 20px;
+    float: left;
 }
