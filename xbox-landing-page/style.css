@@ -21,14 +21,16 @@ header img{
     height: 27px;
 }
 
-header span#acc{
+header img#acc{
     float: right;
+    height: 35px;
 }
 
-header span#botao-menu{
-cursor: pointer;
-float: right;
-padding-right: 10px;
+header img#botao-menu{
+    height: 35px;
+    cursor: pointer;
+    float: right;
+    padding-right: 10px;
 }
 
 header nav{
@@ -196,8 +198,4 @@ footer img{
     padding-left: 15px;
     height: 60px;
     float: left;
-}
-
-footer p{
-    padding-top: 17px;
 }
