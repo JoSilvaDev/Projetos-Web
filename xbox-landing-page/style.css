@@ -53,10 +53,10 @@ header div{
     margin-top: 40px;
     text-align: center;
     color: white;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.437);
     background-color: rgba(19, 124, 19, 0.877);
     border-radius: 20px;
-    box-shadow: -2px -2px 10px  black
+    box-shadow: -2px -2px 10px  rgba(0, 0, 0, 0.433)
 }
 
 header div h1, p{
@@ -67,7 +67,6 @@ article{
     margin: auto;
     max-width: 90vw;
     margin: 20px;
-    padding-bottom: 60px;
 }
 
 article img{
@@ -146,4 +145,12 @@ article img#xboxx{
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+article div#gamepass{
+    text-align: center;
+}
+
+aside div#gamepass img{
+    width: 380px;
 }
