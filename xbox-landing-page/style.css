@@ -186,13 +186,18 @@ aside div#gamepass img{
 }
 
 footer{
-    padding: 10px 0px 0px 20px;
-    height: 40px;
-    background-color: rgba(19, 124, 19, 0.877);
     text-align: center;
+    height: 60px;
+    background-color: rgba(8, 56, 8, 0.877);
+    color: white;
 }
 
 footer img{
-    width: 20px;
+    padding-left: 15px;
+    height: 60px;
     float: left;
+}
+
+footer p{
+    padding-top: 17px;
 }
