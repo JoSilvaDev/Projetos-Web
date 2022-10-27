@@ -62,14 +62,12 @@ header div h1, p{
 
 article{
     margin: auto;
-    max-width: 90vw;
     margin: 20px;
     padding-bottom: 60px;
 }
 
 article img{
-
-    max-width: 80vw;
+max-width: 300px;
 }
 
 article div{
@@ -103,19 +101,18 @@ article div.box{
     background-color: rgba(19, 124, 19, 0.877);
     margin-bottom: 40px;
     width: 160px;
-    height: 300px;
+    height: 280px;
     border-radius: 20px;
     box-shadow: inset  5px 5px 10px rgba(0, 0, 0, 0.444);
 }
 
 article div#box-right{
-    margin-bottom: 30px;
     margin-left: 140px;
     box-shadow: inset -5px  5px 10px rgb(0, 0, 0, 0.444);
 }
 
 article img#xboxx{
-    margin-left: -160px;
+    margin-left: -140px;
 }
 
 [data-anime]{
