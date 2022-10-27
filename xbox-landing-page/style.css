@@ -8,7 +8,6 @@
 
 body, html{
     margin: auto;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -106,7 +105,7 @@ article div.console p{
 article div.box{
     margin-right: 140px;
     background-color: rgba(19, 124, 19, 0.877);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     width: 160px;
     height: 270px;
     border-radius: 20px;
@@ -130,11 +129,11 @@ article img#xboxx{
 }
 
 [data-anime="left"]{
-    transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-30px, 0, 0);
 }
 
 [data-anime="right"]{
-    transform: translate3d(50px, 0, 0);
+    transform: translate3d(30px, 0, 0);
 }
 
 [data-anime="top"]{
@@ -152,5 +151,5 @@ article div#gamepass{
 }
 
 aside div#gamepass img{
-    width: 380px;
+    width: 100%;
 }
