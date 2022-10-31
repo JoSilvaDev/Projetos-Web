@@ -1,0 +1,45 @@
+@charset "UTF-8";   
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+
+    }
+
+    header {
+        margin: auto;
+        max-width: 680px;
+        padding: 20px;
+    }
+
+    header nav{
+        padding-right: 20px;
+        margin-top: -12px;
+        float: right;
+        display: block;
+    }
+
+    header nav > a{
+        display: inline;
+        padding: 10px;
+        border: none
+    }
+
+    header nav > a:hover{
+        text-decoration: underline;
+    }
+
+    header img#botao-menu{
+        display: none;
+    }
+
+    header div#back{
+    height: 430px;
+    line-height: 3em;
+    font-size: 2em;
+    }
+
+    main{
+    max-width: 680px;
+    margin: auto;
+    }
+}
