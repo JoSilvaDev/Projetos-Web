@@ -13,7 +13,7 @@ body, html{
 
 header{
     margin: auto;
-    max-width: 400px;
+    max-width: 480px;
     padding: 20px;
 }
 
@@ -67,8 +67,8 @@ header div h1, p{
 
 article{
     margin: auto;
-    max-width: 90vw;
-    margin: 20px;
+    max-width: 480px;
+
 }
 
 article img{
@@ -76,8 +76,8 @@ max-width: 300px;
 }
 
 article div{
-    margin: auto;
     padding: 20px 10px 20px 10px;
+    margin: 20px;
 }
 
 article div p{
@@ -121,13 +121,13 @@ article div.box{
     width: 160px;
     height: 270px;
     border-radius: 20px;
-    box-shadow: inset  5px 5px 10px rgba(0, 0, 0, 0.444);
+    box-shadow: inset  15px 15px 20px rgba(0, 0, 0, 0.301);
 }
 
 article div#box-right{
     margin-bottom: 30px;
     margin-left: 140px;
-    box-shadow: inset -5px  5px 10px rgb(0, 0, 0, 0.444);
+    box-shadow: inset -15px  15px 20px rgba(0, 0, 0, 0.301);
 }
 
 article img#xboxx{
@@ -150,10 +150,6 @@ article img#xboxx{
 
 [data-anime="top"]{
     text-align: center;
-    transform: translate3d(0, -20px, 0);
-}
-
-[data-anime="bottom"] {
     transform: translate3d(0, -30px, 0);
 }
 
@@ -189,13 +185,11 @@ aside div#gamepass img{
 
 footer{
     text-align: center;
-    height: 60px;
-    background-color: rgba(8, 56, 8, 0.877);
-    color: white;
+    background-color: rgba(19, 124, 19, 0.877);
+    color: rgb(214, 214, 214);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
 }
 
 footer img{
-    padding-left: 15px;
-    height: 60px;
-    float: left;
+    width: 60px;
 }
