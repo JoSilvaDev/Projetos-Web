@@ -65,17 +65,16 @@ header div h1, p{
     padding-bottom: 20px;
 }
 
-article{
-    margin: auto;
+main{
     max-width: 480px;
-
+    margin: auto;
 }
 
 article img{
 max-width: 300px;
 }
 
-article div{
+article, aside div{
     padding: 20px 10px 20px 10px;
     margin: 20px;
 }
@@ -171,15 +170,12 @@ aside div#gamepass h1{
 aside div#gamepass p{
     line-height: 1.5em;
     margin: auto;
-    width: 320px;
     text-align: justify;
     padding-top: 10px;
-    padding-bottom: 40px;
 }
 
 aside div#gamepass img{
-    width: 100%;
-    width: 340px;
+    width: 330px;
     border-radius: 20px;
 }
 
