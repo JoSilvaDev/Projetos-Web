@@ -1,8 +1,9 @@
 @charset "UTF-8";   
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    body{
+@media screen and (min-width: 768px) and (max-width: 1992px) {
 
+    div{
+        margin-top: 20px;
     }
 
     header {
@@ -12,20 +13,29 @@
     }
 
     header nav{
-        padding-right: 20px;
-        margin-top: -12px;
+        background-color: rgba(19, 124, 19, 0.877);
+        border-radius: 20px;
+        height: 35px;
+        padding: 10px 10px 0px 10px;
+        margin-right: 20px;
+        margin-top: -5px;
         float: right;
         display: block;
     }
 
     header nav > a{
+        transition-duration: .25s;
+        color: white;
         display: inline;
         padding: 10px;
         border: none
     }
 
     header nav > a:hover{
-        text-decoration: underline;
+        transition-duration: .25s;
+        color: rgba(255, 255, 255, 0.572);
+        font-size: 18px;
+        margin: -2px;
     }
 
     header img#botao-menu{
@@ -39,7 +49,33 @@
     }
 
     main{
-    max-width: 680px;
+    max-width: 700px;
     margin: auto;
+    }
+
+    article div#eleve img{
+        max-width: 500px;
+    }
+
+    article div.console p, article div.console h2{
+        width: 300px;
+    }
+
+     article div#xbox1 p, article div#xbox1 h2{
+        width: 300px;
+        float: right;
+    }
+
+
+    div#xbox1{
+        margin-bottom: 300px;
+    }
+
+    aside{
+        margin-top: 100px;
+    }
+
+    aside div#gamepass img{
+        width: 650px;
     }
 }

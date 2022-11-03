@@ -107,6 +107,10 @@ article div.console{
     padding-top: 80px;
 }
 
+article div.console h2{
+    display: inline-block;
+}
+
 article div.console p{
     text-align: justify;
 }
@@ -121,7 +125,7 @@ article div#xbox2 h1{
 }
 
 article div.box{
-    margin-right: 140px;
+    float: left;
     background-color: rgba(19, 124, 19, 0.877);
     margin-bottom: 20px;
     width: 160px;
@@ -132,7 +136,7 @@ article div.box{
 
 article div#box-right{
     margin-bottom: 30px;
-    margin-left: 140px;
+    float: right;
     box-shadow: inset -15px  15px 20px rgba(0, 0, 0, 0.301);
 }
 
