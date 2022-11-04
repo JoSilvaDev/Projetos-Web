@@ -93,6 +93,10 @@
         padding-top: 50px;
     }
 
+    header div#back{
+        margin-top: 120px;
+    }
+
       main{
         max-width: 1000px;
     }
@@ -100,4 +104,8 @@
       article div#eleve img{
         max-width: 700px;
     }
+
+    [data-anime="eleve"]{
+    transform: translate3d(0, 50px, 0);
+}
 }
