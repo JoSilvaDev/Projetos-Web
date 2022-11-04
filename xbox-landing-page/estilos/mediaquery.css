@@ -106,18 +106,27 @@
     }
 
         [data-anime="eleve"]{
-    transform: translate3d(0, 50px, 0);
+        transform: translate3d(0, 50px, 0);
 }
 
     article div#container {
-    width: 1100px;
-    text-align: center;
-    padding-bottom: 250px;
+        width: 1100px;
+        text-align: center;
+        padding-bottom: 250px;
 }
 
     article div.specs{
         float: left;
         width: 350px;
+    }
+
+    article div.console p, article div.console h2{
+        width: 400px;
+        margin-right: 200px;
+    }
+
+     article div#xbox1 p, article div#xbox1 h2{
+        width: 400px;
     }
 
 }
