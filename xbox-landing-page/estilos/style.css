@@ -200,3 +200,7 @@ footer{
 footer img{
     width: 60px;
 }
+
+footer p{
+    padding-bottom: 20px;
+}
