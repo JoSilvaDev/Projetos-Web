@@ -120,13 +120,24 @@
         width: 350px;
     }
 
-    article div.console p, article div.console h2{
+    article div#xbox2 p, article div#xbox2 h2{
         width: 400px;
-        margin-right: 200px;
+        padding-left: 200px;
     }
 
      article div#xbox1 p, article div#xbox1 h2{
         width: 400px;
+        padding-right: 200px;
     }
 
+    aside div#gamepass{
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        width: 800px;
+    }
+
+     aside div#gamepass img{
+        width: 800px;
+     }
 }
