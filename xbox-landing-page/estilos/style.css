@@ -188,6 +188,7 @@ aside div#gamepass p{
 aside div#gamepass img{
     width: 330px;
     border-radius: 20px;
+    margin-top: 20px;
 }
 
 footer{
