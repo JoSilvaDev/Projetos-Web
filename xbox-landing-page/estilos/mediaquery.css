@@ -137,11 +137,12 @@
     aside div#gamepass{
         margin: auto;
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         width: 800px;
     }
 
      aside div#gamepass img{
         width: 800px;
+        margin-top: 20px;
      }
 }
