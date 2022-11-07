@@ -115,6 +115,10 @@
         padding-bottom: 250px;
 }
 
+    article [data-anime="top"]{
+        transform: translate3d(-50px, 0, 0);
+    }
+
     article div.specs{
         float: left;
         width: 350px;
