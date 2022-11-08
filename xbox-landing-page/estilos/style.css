@@ -50,6 +50,10 @@ header nav a{
     border-radius: 10px;
 }
 
+header nav a:hover{
+    background-color: rgba(0, 0, 0, 0.149);
+}
+
 header div#back{
     margin-top: 40px;
     text-align: center;
@@ -97,6 +101,10 @@ article p{
 article div#eleve{
     padding-bottom: 40px;
     text-align: center;
+}
+
+article div#eleve img{
+    width: 80vw;
 }
 
 [data-anime="top"] img{
@@ -173,7 +181,7 @@ aside div#gamepass{
 }
 
 aside div#gamepass h1{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 2em;
     margin: auto;
 }
@@ -182,11 +190,10 @@ aside div#gamepass p{
     line-height: 1.5em;
     margin: auto;
     text-align: justify;
-    padding-top: 10px;
 }
 
 aside div#gamepass img{
-    width: 330px;
+    width: 80vw;
     border-radius: 20px;
     margin-top: 20px;
 }

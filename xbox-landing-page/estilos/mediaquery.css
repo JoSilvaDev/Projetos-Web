@@ -33,7 +33,7 @@
 
     header nav > a:hover{
         transition-duration: .25s;
-        color: rgba(255, 255, 255, 0.572);
+        background-color: rgba(255, 255, 255, 0);
         font-size: 18px;
         margin: -2px;
     }
