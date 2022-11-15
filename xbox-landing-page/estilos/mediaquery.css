@@ -71,6 +71,10 @@
         margin-bottom: 300px;
     }
 
+    #xbox2 .button{
+        float: right;
+    }
+
     aside{
         margin-top: 100px;
     }
