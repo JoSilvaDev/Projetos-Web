@@ -15,6 +15,7 @@ main{
 }
 
 .head{
+    margin: auto;
     max-width: 1200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(63, 10, 6);
