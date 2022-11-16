@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head{
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 60px;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
