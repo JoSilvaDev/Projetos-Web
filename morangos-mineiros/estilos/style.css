@@ -89,7 +89,7 @@ article{
     justify-content: space-between;
     gap: 20px;
     font-family: 'Raleway', sans-serif;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .titulo1{
@@ -126,6 +126,6 @@ article{
     background-color: rgba(0, 0, 0, 0.305);
     padding: 10px;
     margin-top: -43px;
-    position: absolute;
+    position: relative;
     color: white;
 }
