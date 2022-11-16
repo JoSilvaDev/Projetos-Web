@@ -89,7 +89,6 @@ article{
     justify-content: space-between;
     gap: 20px;
     font-family: 'Raleway', sans-serif;
-    overflow: auto;
 }
 
 .titulo1{
@@ -114,6 +113,7 @@ article{
     display: flex;
     gap: 10px;
     align-items: center;
+    overflow: auto;
 }
 
 .imagens1 div > img{
@@ -125,7 +125,7 @@ article{
     width: 200px;
     background-color: rgba(0, 0, 0, 0.305);
     padding: 10px;
-    margin-top: -43px;
+    top: -43px;
     position: relative;
     color: white;
 }
