@@ -89,6 +89,7 @@ article{
     justify-content: space-between;
     gap: 20px;
     font-family: 'Raleway', sans-serif;
+    overflow: scroll;
 }
 
 .titulo1{
