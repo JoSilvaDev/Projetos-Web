@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Righteous&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -25,6 +28,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .logo > img{
@@ -51,7 +55,7 @@ main{
 .menu > li:hover{
     transition-duration: 0.2s;
     text-decoration: underline;
-    color: rgb(255, 88, 88);
+    color: rgba(0, 0, 0, 0.66);
 }
 
 .contato{
@@ -74,3 +78,44 @@ main{
     gap: 5px;
 }
 
+article{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.artigo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.titulo1{
+    width: 400px;
+    padding: 20px;
+    color: white;
+    backdrop-filter: blur(5px);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.497);
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.6em;
+}
+
+.titulo1 > h2{
+    font-size: 1.5rem;
+    padding: 10px 0px 30px;
+}
+
+.titulo1 > p {
+    font-size: 1.2rem;
+}
+
+.imagens1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.imagens1 div > img{
+    width: 200px;
+    height: 300px;
+}
