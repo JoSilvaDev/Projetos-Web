@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
 .head{
     height: 60px;
     padding: 20px;
@@ -14,8 +19,15 @@
     align-items: center;
 }
 
+.logo > img{
+    width: 50px;
+    height: 50px;
+}
+
 .logo{
-    width: 60px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
 .menu{
@@ -23,3 +35,21 @@
     list-style-type: none;
     gap: 20px;
 }
+
+.contato{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contato > input{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+.contato > p{
+    display: flex;
+    gap: 5px;
+}
+
