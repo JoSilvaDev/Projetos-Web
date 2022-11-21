@@ -83,7 +83,7 @@ article{
     margin: auto;
 }
 
-.artigo1{
+.artigo1, .artigo2{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,12 +101,11 @@ article{
    font-size: 1.6em;
 }
 
-.titulo1 > h2{
-    font-size: 1.5rem;
-    padding: 10px 0px 30px;
+article h1{
+    padding: 0px 0px 20px;
 }
 
-.titulo1 > p {
+article p {
     font-size: 1.2rem;
 }
 
@@ -126,7 +125,40 @@ article{
     width: 200px;
     background-color: rgba(0, 0, 0, 0.305);
     padding: 10px;
-    top: -43px;
+    top: -46px;
     position: relative;
+    color: white;
+}
+
+.artigo2{
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.imagens2{
+    width: 200px;
+    height: 280px;
+    background-color: rgba(0, 128, 0, 0.722);
+}
+
+.imagens2 > img{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 200px;
+    height: 280px;
+}
+
+.titulo2{
+    width: 500px;
+    padding: 20px;
+   font-size: 1.6em;
+}
+
+.titulo2 > input{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color:rgba(0, 128, 0, 0.722);
     color: white;
 }
