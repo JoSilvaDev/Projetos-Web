@@ -79,13 +79,13 @@ main{
 }
 
 article{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
 }
 
 .section1, .section2, .section3{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
@@ -156,6 +156,7 @@ article p {
 }
 
 .titulo2 > input{
+    cursor: pointer;
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
@@ -166,6 +167,7 @@ article p {
 .section3{
     display: block;
     text-align: center;
+    background-color: rgba(255, 88, 88, 0.085);
 }
 
 .variedades{
@@ -175,12 +177,19 @@ article p {
 }
 
 .variedades div {
-    background-color: rgb(141, 2, 31);
-    color: white;
+    background-color: rgba(212, 212, 212, 0.153);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.078);
+    color: rgb(0, 0, 0);
     width: 180px;
     height: 300px;
     padding: 10px;
     border-radius: 20px;
+}
+
+.variedades div:hover{
+    transition-duration: .25s;
+    background-color: rgb(141, 2, 31);
+    color: white;
 }
 
 .variedades img{
