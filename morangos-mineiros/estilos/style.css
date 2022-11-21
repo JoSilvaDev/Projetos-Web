@@ -157,7 +157,7 @@ article p {
 
 .titulo2 > input{
     margin-top: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
     background-color:rgba(0, 128, 0, 0.722);
     color: white;
