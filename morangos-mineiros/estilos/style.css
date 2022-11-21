@@ -186,7 +186,12 @@ article p {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin: 10px 0px;
+}
+
+.section3 h1{
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
 
 .variedades p{
