@@ -102,6 +102,7 @@ article{
 
 .section2 {
     justify-content: space-around;
+    gap: 60px;
 }
 
 .titulo1{
