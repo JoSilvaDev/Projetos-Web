@@ -171,9 +171,11 @@ article p {
 }
 
 .variedades{
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 1100px;
 }
 
 .variedades div {
