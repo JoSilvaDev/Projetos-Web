@@ -173,7 +173,7 @@ article p {
 
 .section3{
     justify-content: space-around;
-    padding: 20px;
+    padding: 20px 5px;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 100px;
     display: block;
