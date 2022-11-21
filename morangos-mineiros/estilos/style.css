@@ -83,13 +83,14 @@ article{
     margin: auto;
 }
 
-.artigo1, .artigo2{
+.section1, .section2, .section3{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 100px;
 }
 
 .titulo1{
@@ -98,11 +99,11 @@ article{
     color: white;
     backdrop-filter: blur(5px);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.497);
-   font-size: 1.6em;
 }
 
 article h1{
     padding: 0px 0px 20px;
+    font-size: 1.6em;
 }
 
 article p {
@@ -130,9 +131,8 @@ article p {
     color: white;
 }
 
-.artigo2{
+.section2{
     justify-content: space-around;
-    margin-top: 100px;
 }
 
 .imagens2{
@@ -143,10 +143,10 @@ article p {
 
 .imagens2 > img{
     position: relative;
-    top: 30px;
-    left: 50px;
     width: 200px;
     height: 280px;
+    top: 30px;
+    left: 50px;
 }
 
 .titulo2{
@@ -161,4 +161,34 @@ article p {
     border: none;
     background-color:rgba(0, 128, 0, 0.722);
     color: white;
+}
+
+.section3{
+    display: block;
+    text-align: center;
+}
+
+.variedades{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.variedades div {
+    background-color: rgba(190, 14, 14, 0.349);
+    width: 180px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.variedades img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.variedades p{
+    font-size: 0.8rem;
 }
