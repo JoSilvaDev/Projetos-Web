@@ -138,7 +138,7 @@ article p {
 .imagens2{
     width: 200px;
     height: 280px;
-    background-color: rgba(0, 128, 0, 0.722);
+    background-color: rgb(255, 88, 88);
 }
 
 .imagens2 > img{
@@ -159,7 +159,7 @@ article p {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
-    background-color:rgba(0, 128, 0, 0.722);
+    background-color:rgb(141, 2, 31);
     color: white;
 }
 
@@ -175,7 +175,8 @@ article p {
 }
 
 .variedades div {
-    background-color: rgba(190, 14, 14, 0.349);
+    background-color: rgb(141, 2, 31);
+    color: white;
     width: 180px;
     height: 300px;
     padding: 10px;
