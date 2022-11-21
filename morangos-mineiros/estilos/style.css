@@ -204,8 +204,9 @@ article p {
 }
 
 .variedades div:hover{
+    transition-delay: 0.15s;
     transition-duration: .25s;
-    top: -20px;
+    top: -10px;
     background-color: rgb(141, 2, 31);
     color: white;
 }
