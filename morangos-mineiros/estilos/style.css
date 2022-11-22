@@ -37,7 +37,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
 }
 
 .logo > img{
@@ -109,6 +108,7 @@ section{
 }
 
 .section2 {
+    margin-top: 20px;
     justify-content: space-around;
     gap: 60px;
 }
@@ -242,10 +242,13 @@ article p {
 .producao{
     margin: auto;
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: space-around;
-
     flex-wrap: wrap;
+}
+
+.producao h2{
+    font-size: 2em;
 }
 
 .producaoimg{
