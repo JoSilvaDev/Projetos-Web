@@ -230,28 +230,35 @@ article p {
     font-size: 0.8rem;
 }
 
-.producao, .qualidade, .producaoimg{
-    display: flex;
-   gap: 30px;
+.producaotxt{
+    width: 300px;
+}
+
+.producaotxt2{
+    background-color: rgb(141, 2, 31);
+    color: white;
+    padding: 20px;
 }
 
 .producao{
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+}
+
+.producaoimg{
+    width: 200px;
+}
+
+.producao h3, .producao p{
     padding-bottom: 20px;
 }
 
-.producao  > div{
-    max-width: 200px;
-}
-
-.producao h2{
-    font-size: 2em;
-}
-
-.producao h3{
-    padding-bottom: 10px;
-}
-
-.qualidade img{
+.producao img{
     width: 200px;
+    height: 150px;
 }
 
