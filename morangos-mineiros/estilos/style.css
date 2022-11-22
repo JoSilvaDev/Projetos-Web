@@ -103,9 +103,8 @@ section{
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 20px;
+    padding: 100px 20px;
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 100px;
     flex-wrap: wrap;
 }
 
@@ -253,8 +252,9 @@ article p {
     width: 200px;
 }
 
-.producao h3, .producao p{
+.producao p{
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .producao img{
