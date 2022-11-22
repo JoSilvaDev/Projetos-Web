@@ -10,7 +10,7 @@
 }
 
 main{
-    height: 520px;
+    height: 80vh;
     margin: auto;
     background-image: url(../imagens/morango-fundo.jpg);
     background-size: cover;
@@ -253,6 +253,7 @@ article p {
 }
 
 .producao p{
+    line-height: 1.5em;
     padding-bottom: 20px;
     padding-top: 10px;
 }
