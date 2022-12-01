@@ -29,7 +29,6 @@ header{
     background-image: url(../imagens/morango-fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     box-shadow: inset 10px -10px 40px 20px rgba(0, 0, 0, 0.402);
 }
 
@@ -293,7 +292,7 @@ article p {
 .perfil{
     border-radius: 20px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.33);
+    background-color: rgba(0, 0, 0, 0.124);
     padding: 20px;
     backdrop-filter: blur(5px);
 }
@@ -319,22 +318,35 @@ article p {
 }
 
 footer{
-    background-color: rgb(3, 50, 4);
-    color: white;
+    color: black;
     text-align: center;
     margin: auto;
-    height: 150px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
     margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 0px 80px;
+    line-height: 1.6em;
 }
 
-footer img{
-    width: 80px;
+footer div{
+    width: 300px;
 }
 
-footer p{
-    padding: 5px;
+footer .social{
+    float: left;
+    cursor: pointer;
+    width: 40px;
+    padding: 20px 5px;
+    
+}
+
+footer .logo{
+    padding-bottom: 10px;
+    width: 60px;
+}
+
+.flogo{
+    text-align: justify;
 }
