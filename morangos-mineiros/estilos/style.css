@@ -337,7 +337,12 @@ footer .social{
     cursor: pointer;
     width: 40px;
     padding: 20px 5px;
-    
+    margin-right: 10px;
+}
+
+.social:hover{
+    position: relative;
+    top: -10px;
 }
 
 footer .logo{
