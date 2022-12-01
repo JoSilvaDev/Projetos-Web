@@ -323,15 +323,13 @@ footer{
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 20px;
-    padding: 0px 80px;
     line-height: 1.6em;
 }
 
 footer div{
-    width: 300px;
+    margin: auto;
 }
 
 footer .social{
@@ -349,4 +347,5 @@ footer .logo{
 
 .flogo{
     text-align: justify;
+    width: 300px;
 }
