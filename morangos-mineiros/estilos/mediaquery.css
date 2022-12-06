@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1024px){
+    .contato p{
+        display: none;
+    }
+
+    .producao div{
+    width: 300px;
+    }
+
+    .colaboradores{
+    max-width: 900px;
+}
+}

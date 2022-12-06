@@ -107,9 +107,8 @@ section, aside{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
     padding: 100px 20px;
-    flex-wrap: wrap;
 }
 
 .section2 {
@@ -128,6 +127,7 @@ section, aside{
 
 article p {
     font-size: 1.2rem;
+    line-height: 1.5em;
 }
 
 .imagens1{
@@ -192,9 +192,8 @@ article p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    max-width: 900px;
+    max-width: 800px;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .variedades div {
@@ -203,8 +202,8 @@ article p {
     background-color: rgba(212, 212, 212, 0.153);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.078);
     color: rgb(0, 0, 0);
-    width: 200px;
-    height: 250px;
+    width: 160px;
+    height: 280px;
     padding: 10px;
     border-radius: 20px;
 }
@@ -247,9 +246,15 @@ article p {
 .producao{
     margin: auto;
     display: flex;
-    gap: 50px;
+    gap: 40px;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.producao div{
+    width: 260px;
+    margin: auto;
+    text-align: center;
 }
 
 .producao h2, .colaboradores h2{
@@ -267,7 +272,7 @@ article p {
 }
 
 .producao img{
-    width: 200px;
+    width: 250px;
     height: 150px;
 }
 
@@ -291,7 +296,7 @@ article p {
 }
 
 .colaboradores{
-    max-width: 900px;
+    max-width: 1200px;
 }
 
 .perfil{
@@ -304,7 +309,7 @@ article p {
 }
 
 .colaboradores div{
-
+    padding-bottom: 20px;
     margin: auto;
 }
 
@@ -329,14 +334,11 @@ footer{
     text-align: center;
     margin: auto;
     display: flex;
-    align-items: center;
     margin-top: 100px;
-    margin-bottom: 20px;
     line-height: 1.6em;
-}
-
-footer div{
-    margin: auto;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0px 40px;
 }
 
 footer .social{
