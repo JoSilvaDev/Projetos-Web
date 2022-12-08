@@ -17,8 +17,12 @@
 
 @media screen and (max-width:576px) {
 
-    section, aside{
+    section, aside, .variedades, .colaboradores{
         flex-wrap: wrap;
+    }
+
+    .menu{
+        display: none;
     }
 
 }
