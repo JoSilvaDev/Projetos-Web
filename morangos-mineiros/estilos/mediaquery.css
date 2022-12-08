@@ -27,6 +27,8 @@
         position: relative;
         right: 20px;
         box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.174);
+        padding: 10px 05px;
+        margin-top: 10px;
     }
 
     .section1{
