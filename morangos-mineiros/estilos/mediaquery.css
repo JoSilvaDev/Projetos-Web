@@ -21,13 +21,8 @@
         flex-wrap: wrap;
     }
 
-    .btnMenu{
-        display: block;
-    }
-
     .menu{
-        width: 100px;
-        display: none;
+        width: 150px;
         overflow: auto;
     }
 
