@@ -36,4 +36,11 @@
         margin-bottom: 20px;
     }
 
+    footer img{
+        padding-right: 10px;
+        float: left;
+        text-align: center;
+        margin: auto;
+    }
+
 }
