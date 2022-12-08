@@ -21,12 +21,18 @@
         flex-wrap: wrap;
     }
 
+    .btnMenu{
+        display: block;
+    }
+
     .menu{
+        width: 100px;
         display: none;
+        overflow: auto;
     }
 
     .section1{
-        padding-top: 20px;
+        padding-top: 40px;
     }
 
     .section2{

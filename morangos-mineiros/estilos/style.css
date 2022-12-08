@@ -56,6 +56,10 @@ header{
     gap: 60px;
 }
 
+.btnMenu{
+    display: none;
+}
+
 .menu{
     display: flex;
     list-style-type: none;
