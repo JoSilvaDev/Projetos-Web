@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (max-width:1024px){
+
     .contato p{
         display: none;
     }
@@ -12,4 +13,12 @@
     .colaboradores{
     max-width: 900px;
 }
+}
+
+@media screen and (max-width:576px) {
+
+    section, aside{
+        flex-wrap: wrap;
+    }
+
 }
