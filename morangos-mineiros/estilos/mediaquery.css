@@ -25,6 +25,10 @@
         display: none;
     }
 
+    .section1{
+        padding-top: 20px;
+    }
+
     .section2{
         margin-top: 100px;
     }
