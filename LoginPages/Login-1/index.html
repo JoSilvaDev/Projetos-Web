@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="imagem">
+                <h1>
+                    Bem-vindo <br>
+                    De volta!
+                </h1>
+            </div>
+            <div class="login">
+                <h3><strong>Login</strong></h3>
+                <p>Bem-vindo de volta! Por favor, preencha <br> 
+                com os dados da sua conta</p>
+                
+                <form>
+                    <label for="userName">
+                        <p>Nome de Usuário </p>
+                        <p><input type="text" name="userName" id="userName" required></p>
+                    </label>
+
+                    <label for="password">
+                        <p>Senha</p>
+                        <p><input type="password" name="password" id="password" required></p>
+                    </label>
+
+                    <label for="check">
+                        <p><input type="checkbox" name="check" id="check">
+                        Continuar logado</p>
+                    </label>
+
+                    <input type="submit" value="Login" class="button">
+                </form>
+
+                <div class="optional">
+                    <p> novo aqui? <a href="#" class="signup">Registrar-se</a></p>
+                    <a href="#" class="newPass">Esqueceu a senha?</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
