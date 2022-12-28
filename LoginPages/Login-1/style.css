@@ -32,7 +32,7 @@ section > div{
 
 .imagem{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 10px 0 0 10px;
 
     background-image: url(imagens/165d1507-779d-4879-9801-f2c6490d2b6f.jpg);
