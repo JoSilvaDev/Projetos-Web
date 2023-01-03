@@ -17,11 +17,13 @@ main{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 0 80px;
 }
 
 section{
-    display: flex;
     width: 800px;
+    display: flex;
     box-shadow: 0 0  40px rgba(0, 0, 0, 0.261);
     border-radius: 10px;
 }
@@ -51,13 +53,13 @@ section > div{
 }
 
 .login > h3{
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 10px;
     color: rgb(56, 56, 56);
 }
 
 .login p{
-    font-size: 10px;
+    font-size: 13px;
         color: grey;
 }
 
@@ -94,7 +96,7 @@ input{
 }
 
 a{
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
     color: grey;
 }
@@ -102,5 +104,42 @@ a{
 .signup{
     color: #936FF7;
     padding-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    section{
+        display: inline;
+        min-width: 350px;
+        max-width: 600px;
+    }
+
+    section > div{
+        margin: 0 auto;
+    }
+
+    .imagem{
+        width: 100%;
+        height: 620px;
+        border-radius: 10px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+       justify-content: center;
+       text-align: center;
+    }
+
+    .login{
+        width: auto;
+        max-width: 400px;
+        margin-top: -465px;
+    }
+
+    .login  h3{
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.219);
+    }
+
+    .login  p{
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+    }
 }
 
