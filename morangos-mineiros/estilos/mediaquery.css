@@ -35,6 +35,14 @@
         padding-top: 40px;
     }
 
+    .titulo1 h1{
+    font-size: 3em;
+}
+
+.titulo1 p {
+    font-size: 1.2em;
+}
+
     .section2{
         margin-top: 100px;
     }
