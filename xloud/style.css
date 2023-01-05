@@ -117,12 +117,8 @@ footer{
         padding: 10px 30px;
     }
 
-    aside{
+    aside, footer{
         margin: 0 auto;
-        margin-top: -80px;
-    }
-
-    footer{
         margin-top: -80px;
     }
 }
