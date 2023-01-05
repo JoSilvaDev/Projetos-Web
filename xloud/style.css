@@ -58,7 +58,6 @@ span{
 article p{
     color: rgba(255, 255, 255, 0.392);
     margin-bottom: 30px;
-    max-width: 220px;
 }
 
 article a{
@@ -106,6 +105,7 @@ footer{
 
     article p{
         padding-bottom: 20px ;
+        max-width: 220px;
     }
 
     article a{
