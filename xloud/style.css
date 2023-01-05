@@ -40,7 +40,7 @@ header{
 }
 
 article{
-margin: 200px auto;
+margin: 120px auto;
 max-width: 300px;
 text-align: center;
 text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.529);
@@ -78,7 +78,7 @@ article a{
 
 aside{
     display: flex;
-    margin-top: -220px;
+    margin-top: -50px;
     gap: 10px;
 }
 
@@ -119,10 +119,10 @@ footer{
 
     aside{
         margin: 0 auto;
-        margin-top: -170px;
+        margin-top: -80px;
     }
 
     footer{
-        margin-top: -40px;
+        margin-top: -80px;
     }
 }
