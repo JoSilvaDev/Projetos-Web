@@ -113,8 +113,8 @@ footer{
     }
 
     aside{
-        flex-direction: column;
-        margin-top: -310px;
+        margin: 0 auto;
+        margin-top: -170px;
     }
 
     footer{
