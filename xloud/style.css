@@ -16,9 +16,9 @@ body{
 }
 
 main{
-    background-image: url(imagens/project-xcloud-microsoft.jpg);
+    background-image: url(imagens/project-xcloud-microsoft~3.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     max-width: 1000px;
     height: 565px;
@@ -42,8 +42,12 @@ text-align: center;
 text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.529);
 }
 
-article h1{
+article h1, article h2{
     font-size: 3em;
+}
+
+article h2{
+    margin-top: -15px;
 }
 
 span{
@@ -53,10 +57,12 @@ span{
 
 article p{
     color: rgba(255, 255, 255, 0.392);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    max-width: 220px;
 }
 
 article a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: white;
     font-weight: 800;
