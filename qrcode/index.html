@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRcode</title>
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+</head>
+<style>
+    @charset "UTF-8";
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Raleway:wght@300&display=swap');
+
+    :root{
+        --Lightgray: hsl(212, 45%, 89%);
+        --Grayishblue: hsl(220, 15%, 55%);
+        --Darkblue: hsl(218, 44%, 22%);
+        --White: hsl(0, 0%, 100%);
+
+        --Fonte: 'Outfit', sans-serif;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        background-color: var(--White);
+        font-family: var(--Fonte);
+        font-size: 17px;
+        padding: 20px;
+    }
+
+    main{
+        display: flex;
+        width: 1200px;
+        height:600px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--Lightgray);
+    }
+
+    .container{
+        width: 350px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--White);
+        border-radius: 20px;
+        padding: 15px 0;
+    }
+
+    .qrcode{
+        width: 100%;
+        height: 66%;
+    }
+
+    .qrcode img{
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+    }
+
+    .text{
+        width: 290px;
+    }
+
+    .text h2{
+        padding-bottom: 10px;
+        color: var(--Darkblue);
+    }
+
+    .text p{
+        color: var(--Grayishblue);
+    }
+
+@media screen and (max-width: 500px) {
+    body{
+        padding: 0;
+    }
+
+    main{
+        width: 100vw;
+        height: 100vh;
+        padding: 10px;
+    }
+}
+
+</style>
+<body>
+    <main>
+        <div class="container">
+            <div class="qrcode">
+                <img src="imagens/image-qr-code.png" alt="qr-code">
+            </div>
+            <div class="text">
+                <h2>
+                    Improve your front-end skills by building projects
+                </h2>
+                <p>
+                    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+                </p>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
