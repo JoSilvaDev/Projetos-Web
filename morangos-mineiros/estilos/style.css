@@ -122,14 +122,18 @@ section, aside{
 }
 
 .titulo1{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding: 20px;
-    color: rgb(255, 255, 255);
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.386);
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 5px rgba(56, 56, 56, 0.116);
+
+    background-color: aliceblue;
+    border-radius: 20px;
 }
 
 .titulo1 h1{
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .titulo1 p {
