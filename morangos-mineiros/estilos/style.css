@@ -125,10 +125,11 @@ section, aside{
     width: 100%;
     max-width: 400px;
     padding: 20px;
-    color: rgb(0, 0, 0);
-    text-shadow: 5px 5px 5px rgba(56, 56, 56, 0.116);
+    color: rgba(255, 255, 255, 0.966);
+    text-shadow: 2px 2px 5px rgba(12, 12, 12, 0.603);
 
-    background-color: aliceblue;
+    background-color: rgba(48, 48, 48, 0.153);
+    /*background: linear-gradient(190deg, rgb(255, 255, 255) ,  rgba(48,48,48,0.153) 99%);*/
     border-radius: 20px;
 }
 
@@ -161,7 +162,7 @@ article p {
     width: 200px;
     background-color: rgba(0, 0, 0, 0.305);
     padding: 10px;
-    top: -40px;
+    top: -43px;
     position: relative;
     color: white;
 }
