@@ -7,6 +7,4 @@
  
 https://github.com/JoSilvaDev/Projetos-Web/tree/main/LoginPages/Login-1
 
-https://josilvadev.github.io/Projetos-Web/LoginPages/Login-1/
-
 https://josilvadev.github.io/Projetos-Web/Pilates/
