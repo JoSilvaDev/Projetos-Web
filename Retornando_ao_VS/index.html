@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recapitulação Prática: Task Manager</title>
+    <style>
+        /* CSS - Estilização e Layout */
+        :root {
+            --primary-color: #4a90e2;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+            --danger: #e74c3c;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 { text-align: center; color: var(--text-color); }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus { border-color: var(--primary-color); }
+
+        button#add-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        ul { list-style: none; padding: 0; }
+
+        /* Estilo para os itens da lista gerados pelo JS */
+        .task-item {
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .task-item.completed span {
+            text-decoration: line-through;
+            color: #888;
+        }
+
+        .delete-btn {
+            background: none;
+            border: none;
+            color: var(--danger);
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Minhas Tarefas</h2>
+        
+        <div class="input-group">
+            <input type="text" id="task-input" placeholder="O que precisa ser feito?">
+            <button id="add-btn">Adicionar</button>
+        </div>
+
+        <ul id="task-list">
+            <!-- As tarefas aparecerão aqui dinamicamente -->
+        </ul>
+    </div>
+
+    <script>
+        // JAVASCRIPT - Lógica e Manipulação do DOM
+        
+        // 1. Seleção de elementos (armazenando em constantes para performance)
+        const taskInput = document.getElementById('task-input');
+        const addBtn = document.getElementById('add-btn');
+        const taskList = document.getElementById('task-list');
+
+        // 2. Inicialização: Carregar dados do LocalStorage ao abrir a página
+        document.addEventListener('DOMContentLoaded', getTasks);
+
+        // 3. Função Principal: Adicionar Tarefa
+        const addTask = () => {
+            const taskText = taskInput.value.trim();
+
+            if (taskText === "") {
+                alert("Por favor, digite algo!");
+                return;
+            }
+
+            // Criar objeto da tarefa
+            const taskObj = {
+                id: Date.now(),
+                text: taskText,
+                completed: false
+            };
+
+            createTaskElement(taskObj);
+            saveLocalTask(taskObj);
+            
+            taskInput.value = ""; // Limpa o input
+        };
+
+        // 4. Função: Criar o elemento HTML da tarefa (Renderização)
+        function createTaskElement(task) {
+            const li = document.createElement('li');
+            li.classList.add('task-item');
+            if (task.completed) li.classList.add('completed');
+            li.setAttribute('data-id', task.id);
+
+            // Template Literals (uso de crase) facilitam a criação de HTML complexo
+            li.innerHTML = `
+                <span onclick="toggleComplete(${task.id})">${task.text}</span>
+                <button class="delete-btn" onclick="removeTask(${task.id})">Excluir</button>
+            `;
+
+            taskList.appendChild(li);
+        }
+
+        // 5. Função: Alternar estado de concluído
+        window.toggleComplete = (id) => {
+            const tasks = JSON.parse(localStorage.getItem('tasks'));
+            const updatedTasks = tasks.map(t => {
+                if(t.id === id) t.completed = !t.completed;
+                return t;
+            });
+            localStorage.setItem('tasks', JSON.stringify(updatedTasks));
+            renderAll(); // Atualiza a tela
+        };
+
+        // 6. Função: Remover tarefa
+        window.removeTask = (id) => {
+            let tasks = JSON.parse(localStorage.getItem('tasks'));
+            tasks = tasks.filter(t => t.id !== id);
+            localStorage.setItem('tasks', JSON.stringify(tasks));
+            renderAll();
+        };
+
+        // 7. LocalStorage: Persistência de dados
+        function saveLocalTask(task) {
+            let tasks = localStorage.getItem('tasks') ? JSON.parse(localStorage.getItem('tasks')) : [];
+            tasks.push(task);
+            localStorage.setItem('tasks', JSON.stringify(tasks));
+        }
+
+        function getTasks() {
+            renderAll();
+        }
+
+        function renderAll() {
+            taskList.innerHTML = "";
+            const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+            tasks.forEach(task => createTaskElement(task));
+        }
+
+        // 8. Event Listeners (Escutadores de eventos)
+        addBtn.addEventListener('click', addTask);
+
+        // Atalho: Adicionar ao pressionar "Enter"
+        taskInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') addTask();
+        });
+    </script>
+</body>
+</html>
